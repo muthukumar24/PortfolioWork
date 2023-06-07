@@ -1,0 +1,914 @@
+/* ----------- */
+/* Font Section */
+/* ----------- */
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-Regular-1.ttf);
+}
+@font-face {
+    font-family: "Lobster";
+    src: url(Lobster\ 1.4.otf);
+}
+/* ---------------------------------*/
+/* ----------Section One------------*/
+/* --------------------------------- */
+.sectinone{
+    height: 800px;
+    /* width: 1500px; */
+    width: auto;
+    /* border: solid; */
+    background-image: url(kidsimg6.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.containerone{
+    height: 320px;
+    width: 700px;
+    border: solid white;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    position: relative;
+    top: 330px;
+    left: 2px;
+}
+.layoutone{
+    height: 290px;
+    width: 600px;
+    /* border: solid; */
+    position: relative;
+    left: 50px;
+}
+/* -----------Birthday Text------------ */
+.layoutone .birthdaytext{
+    font-size: 6rem;
+    color: #f1c50e;
+    font-family: "Lobster";
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+}
+/* -----------Party Text-------------- */
+.layoutone .partytext{
+    font-size: 3.5rem;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+}
+/* ----------Image from Freepik-------*/
+.layoutone .imgtext{
+    font-family: 'Open Sans',sans-serif;
+}
+.layoutone .freepiktext{
+    color: #f1c50e;
+    text-decoration: none;
+}
+.layoutone .freepiktext:hover{
+    color: black;
+    opacity: 0.5;
+}
+/* ----------- */
+/* Section Two */
+/* ----------- */
+.sectiontwo{
+    height: 500px;
+    width: auto;
+    border: solid white;
+    background-image: url(Backgroundimg1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.layouttwo{
+    height: 495px;
+    width: 1200px;
+    margin: auto;
+    /* border: solid; */
+}
+/* -------------Text Area-----------*/
+.layouttwo .whatwedotext{
+    text-align: center;
+    font-family: "Lobster";
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 70px;
+}
+/* -------------Content-------------*/
+.layouttwo .containertwo{
+    height: 300px;
+    width: 1195px;
+    margin: auto;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+.layouttwo .containertwo .box{
+    height: 290px;
+    width: 250px;
+    /* border: solid red;          */
+}
+.layouttwo .containertwo .box .subbox{
+    height: 250px;
+    width: 200px;
+    /* border: solid blue; */
+    margin: 15px auto 15px auto;
+}
+.layouttwo .containertwo .box .subbox .image .girlimg{
+   height: 100px;
+   width: 100px;
+   display: block;
+   margin: auto;
+}
+.layouttwo .containertwo .box .subbox .image .emoji{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+ }
+ .layouttwo .containertwo .box .subbox .image .joystick{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+ }
+ .layouttwo .containertwo .box .subbox .image .questmap{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+ }
+ /* -------------Names-------------- */
+ .layouttwo .containertwo .box .subbox .names{
+    font-weight: 600;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+}
+/* --------------Descriptions-------- */
+.layouttwo .containertwo .box .subbox .description{
+    font-family: "Montserrat",sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+/* ------------- */
+/* Section Three */
+/* ------------- */
+.sectionthree{
+    height: 1300px;
+    width: auto;
+    /* border: solid; */
+    background-color: #fef9e6;
+    display: flex;
+    flex-wrap: wrap;
+}
+.layoutthree{
+    height: 1290px;
+    width: 1100px;
+    margin: auto;
+    /* border: solid red; */
+}
+/* -------------Text Area----------- */
+.ourteamtext{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Lobster";
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 40px 70px 0px 70px;
+}
+.layoutthree .containerthree{
+    height: 1100px;
+    width: 1095px;
+    /* border: solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.layoutthree .containerthree .team{
+    height: 500px;
+    width: 280px;
+    margin: 20px;
+    /* border: solid forestgreen; */
+    background-color: white;
+}
+/* ------------------Team Members---------------- */
+/* Nicole */
+.layoutthree .containerthree .team .nicoleimg{
+    height: 240px;
+    width: 240px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(nikoleimg.jpg);
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layoutthree .containerthree .team .nicole{
+   font-size: 1.25rem;
+   font-weight: 700;
+   font-family: "Montserrat",sans-serif;
+   color: #f1c50e ;
+   text-align: center;
+}
+.layoutthree .containerthree .team .companyfounder{
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+/* Mike */
+.layoutthree .containerthree .team .mikeimg{
+    height: 240px;
+    width: 240px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(mikeimg.jpg);
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layoutthree .containerthree .team .mike{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    color: #f1c50e ;
+    text-align: center;
+}
+.layoutthree .containerthree .team .animator{
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+/* Natasha */
+.layoutthree .containerthree .team .natashaimg{
+    height: 240px;
+    width: 240px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(natashaimg.jpg);
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layoutthree .containerthree .team .natasha{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    color: #f1c50e ;
+    text-align: center;
+}
+.layoutthree .containerthree .team .confectioner{
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+    text-align: center; 
+}
+/* Steve */
+.layoutthree .containerthree .team .steveimg{
+    height: 240px;
+    width: 240px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(steveimg.jpg);
+    background-position-x: 0%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layoutthree .containerthree .team .steve{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    color: #f1c50e ;
+    text-align: center;
+}
+.layoutthree .containerthree .team .screenwriter{
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+    text-align: center; 
+}
+/* Mary */
+.layoutthree .containerthree .team .maryimg{
+    height: 240px;
+    width: 240px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(maryimg.jpg);
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layoutthree .containerthree .team .mary{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    color: #f1c50e ;
+    text-align: center;
+}
+.layoutthree .containerthree .team .paniter{
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+    text-align: center; 
+}
+.layoutthree .containerthree .team .instagramlogoarea{
+    height: 63px;
+    width: 63px;
+}
+.layoutthree .containerthree .team .instagramlogoarea .instagramicon{
+        height: 63px;
+        width: 63px;
+        display: block;
+        margin: auto;
+}
+.layoutthree .containerthree .team .textarea{
+    height: 430px;
+    width: 240px;
+    /* border: solid; */
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.layoutthree .containerthree .team .textarea .textcontent{
+    text-align: left;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+.layoutthree .containerthree .team .textarea .textcontent .freepiklink{
+    color: #f1c50e;
+    text-decoration: none;
+}
+.freepiklink:hover{
+    color: black;
+    opacity: 0.5;
+}
+.layoutthree .containerthree .team .arrowimg{
+    height: 50px;
+    width: 50px;  
+}
+.arrowimage{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto
+}
+/* ------------ */
+/* Section Four */
+/* ------------ */
+.sectionfour{
+    height: 1090px;
+    width: auto;
+    border: solid white;
+}
+.containerfour{
+    height: 1080px;
+    width: 1130px;
+    /* border: solid blue; */
+    margin: auto;
+}
+/* ------------Galary Area---------- */
+.ourgalarytext{
+   font-size: 3rem;
+   font-weight: 600;
+   text-align: center;
+   font-family: "Lobster";
+   margin-top: 50px;
+}
+.containerfour .galary{
+    height: 730px;
+    width: 1125px;
+    /* border: solid rebeccapurple; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.containerfour .galary .images{
+    height: 320px;
+    width: 322px;
+    /* border: solid; */
+    margin: 10px;
+}
+.containerfour .galary .images .kidsimage{
+    height: 285px;
+    width: 285px;
+    /* border: solid; */
+    margin: 15px 16px 16px 16px;
+}
+.kidsimage:hover{
+    transition: 0.4s;
+    transform: scale(1.1)
+}
+.containerfour .imagereftext{
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 30px;
+}
+.containerfour .imagereftext .sectionfourfreepiklink{
+    color: #f1c50e;
+    text-decoration: none;
+}
+.sectionfourfreepiklink:hover{
+    color: black;
+    opacity: 0.5;
+}
+.containerfour .reference{
+    text-align: center;
+    margin-top: 60px;
+}
+.containerfour .reference .nicepagebest{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: black;
+    background-color: #f1c50e;
+    border: #f1c50e;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+}
+.containerfour .reference .nicepagebest:hover{
+    color: white;
+    background-color: black;
+}
+/* ------------ */
+/* Section Five */
+/* ------------ */
+.sectionfive{
+    height: 330px;
+    width: auto;
+    background-color: #f1c50e;
+    border: solid #f1c50e;
+    /* border: #f1c50e; */
+}
+.sectionfive .containerfive{
+    height: 328px;
+    width: 900px;
+    /* border: solid; */
+    margin: auto;
+}
+/* --------------Consultation Area------------ */
+.sectionfive .containerfive .consultationtext{
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.sectionfive .containerfive .plans{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+.sectionfive .containerfive .details{
+    text-align: center;
+    margin-top: 50px;
+}
+.sectionfive .containerfive .details .fordetails{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: black;
+    background-color: white;
+    border: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+}
+.sectionfive .containerfive .details .fordetails:hover{
+    opacity: 0.8;
+}
+/* ------------- */
+/* Section Six */
+/* ------------- */
+.sectionsix{
+    height: 750px;
+    width: auto;
+    border: solid white;
+    background-image: url(Backgroundimg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.containersix{
+    height: 745px;
+    width: 1050px;
+    /* border: solid; */
+    margin: auto;
+}
+.containersix .contentarea{
+    height: 650px;
+    width: 960px;
+    /* border: solid blue; */
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+.containersix .contentarea .contentbox{
+    height: 280px;
+    width: 444px;
+    /* border: solid red; */
+    margin: auto;
+    
+}
+/* ------------Services Area------------- */
+.containersix .contentarea .contentbox .pictures .manwithtool{
+    height: 103px;
+    width: 103px;
+    display: block;
+    margin: auto;
+}
+.containersix .contentarea .contentbox .pictures .girlimage{
+    height: 103px;
+    width: 103px;
+    display: block;
+    margin: auto;
+}
+.containersix .contentarea .contentbox .pictures .monitorimgae{
+    height: 103px;
+    width: 103px;
+    display: block;
+    margin: auto;
+}
+.containersix .contentarea .contentbox .pictures .thumbsupimage{
+    height: 103px;
+    width: 103px;
+    display: block;
+    margin: auto;
+}
+.containersix .contentarea .contentbox .objectives{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+.containersix .contentarea .contentbox .textpart{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 22px;
+}
+/* ---------------------------*/
+/* -------Section Seven-------*/
+/* ---------------------------*/
+.sectionseven{
+   height: 1150px;
+   width: auto;
+   /* border: solid; */
+   border: solid #fef9e6;
+   background-color: #fef9e6;
+}
+.containerseven{
+    height: 1145px;
+    width: 1000px;
+    /* border: solid red; */
+    margin: auto;
+}
+.containerseven .maintext{
+   font-size: 3rem;
+   font-weight: 700;
+   text-align: center;
+   font-family: "Lobster";
+   margin: 60px auto 20px;
+}
+.containerseven .containerflex{
+  height: 950px;
+  width: 995px;
+  margin: auto;
+  /* border: solid violet; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* -------------Review Area--------------- */
+.containerseven .containerflex .boxes{
+  height: 440px;
+  width: 290px;
+  margin: 10px;
+  /* border: solid; */
+  background-color: white;
+}
+.containerseven .containerflex .boxes .parentbox{
+    height: 400px;
+    width: 260px;
+    margin: 15px auto;
+    /* border: solid; */
+}
+/*-------Parent Review part------*/
+/* Parent Images */
+.containerseven .containerflex .boxes .parentpictureone{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(stellaimg.jpg); 
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.containerseven .containerflex .boxes .parentpicturetwo{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(nickimg.jpg); 
+    background-position-x: 55%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.containerseven .containerflex .boxes .parentpicturethree{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(olgaimg.jpg); 
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.containerseven .containerflex .boxes .parentpicturefour{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(paulimg.jpg); 
+    background-position-x: 95%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.containerseven .containerflex .boxes .parentpicturefive{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(valeryimg.jpg); 
+    background-position-x: 95%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.containerseven .containerflex .boxes .parentpicturesix{
+    height: 83px;
+    width: 83px;
+    margin: 20px auto;
+    /* border: solid; */
+    border: solid white;
+    box-sizing: border-box;
+    border-radius: 150px;
+    background-image: url(stellaperryimg.jpg); 
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* -------Parent Name ------*/
+.containerseven .containerflex .boxes .parentname{
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+/* ------Parent review ------*/
+.containerseven .containerflex .boxes .parentreview{
+    color: #999999;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+/* ------Line break------- */
+.containerseven .containerflex .boxes .linebreak{
+    height: 5px;
+    width: 255px;
+    /* border: solid; */
+    margin: auto;
+}
+.containerseven .containerflex .boxes .linebreak .hrline{
+    border-top: 3px solid #f1c50e;
+}
+/*------Date----- */
+.containerseven .containerflex .boxes .date{
+    color: #999999;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 200;
+}
+/* -------------------------------------------- */
+/* -----------------Section Eight-------------- */
+/* -------------------------------------------- */
+.sectioneight{
+    height: 690px;
+    width: auto;
+    /* border: solid; */
+    border: solid #f1c50e;
+    background-color: #f1c50e;
+}
+.containereight{
+    height: 680px;
+    width: 1000px;
+    margin: auto;
+    /* border: solid; */
+}
+.containereight .plansandacheivements{
+   height: 590px;
+   width: 900px;
+   margin: 50px auto;
+   /* border: solid blue; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+/* ----------------Acheivements Area-------------- */
+.containereight .plansandacheivements .plansandacheivementsbox{
+   height: 260px;
+   width: 380px;
+   /* border: solid; */
+   margin: 10px;
+}
+.containereight .plansandacheivements .plansandacheivementsbox .numbers{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 40px auto 20px;
+}
+.containereight .plansandacheivements .plansandacheivementsbox .plansandacheivementstext{
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px auto;
+}
+.containereight .plansandacheivements .plansandacheivementsbox .imgarrow .arrowpicture{
+    height: 48px;
+    width: 48px;
+    /* border: solid; */
+    margin: 10px auto;
+    display: block;
+}
+/* --------------------------- */
+/* --------Section Nine------- */
+/* --------------------------- */
+.sectionnine{
+   height: 780px;
+   width: auto;
+   /* border: solid; */
+   background-image: url(girlwithhatimg.jpeg);
+   background-position-x: 0%;
+   background-position-y: 44%;
+   background-size: 120%;
+   background-repeat: no-repeat;
+}
+.containernine{
+    height: 420px;
+    width: 650px;
+    /* border: solid; */
+    position: relative;
+    top: 300px;
+    left: 20px;
+    display: flex;
+    background-color: #ffffff;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.containernine .formcontainer{
+   height: 400px;
+   width: 500px;
+   /* border: solid; */
+   margin: 10px auto;
+}
+/* ---------------Free Sonsultation Form-------------- */
+.containernine .formcontainer .freeconsulationtext{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.260rem;
+    padding: 0px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.containernine .formcontainer .mainform{
+   height: 220px;
+   width: 495px;
+   /* border: solid; */
+}
+.containernine .formcontainer .mainform .consultationform{
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+}
+/* -----Name Area----- */
+.containernine .formcontainer .mainform .consultationform .namefield{
+    height: 40px;
+    width: 450px;
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+    border: #f2f2f2;
+    border-radius: 30px;
+}
+/* ------Email Area----- */
+.containernine .formcontainer .mainform .consultationform .emailfield{
+    height: 40px;
+    width: 450px;
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+    border: #f2f2f2;
+    border-radius: 30px;
+}
+/* -------Submit Option------------ */
+.containernine .formcontainer .mainform .submitoption{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: black;
+    background-color: #f1c50e;
+    border: #f1c50e;;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.containernine .formcontainer .mainform .submitoption:hover{
+    color: black;
+    opacity: 0.7;
+}
+/* -----------Image from Freepik------------- */
+.containernine .formcontainer .reftext{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    margin-top: 30px;
+}
+.containernine .formcontainer .reftext .linkref{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #f1c50e;
+}
+.containernine .formcontainer .reftext .linkref:hover{
+    color: black;
+    opacity: 0.5;
+}
+    
