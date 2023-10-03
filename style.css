@@ -15,7 +15,7 @@
 .sectinone{
     height: 800px;
     /* width: 1500px; */
-    width: auto;
+    width: 100%;
     /* border: solid; */
     background-image: url(kidsimg6.jpeg);
     background-position: center;
@@ -76,7 +76,7 @@
 /* ----------- */
 .sectiontwo{
     height: 500px;
-    width: auto;
+    width: 100%;
     border: solid white;
     background-image: url(Backgroundimg1.jpg);
     background-size: cover;
@@ -164,7 +164,7 @@
 /* ------------- */
 .sectionthree{
     height: 1300px;
-    width: auto;
+    width: 100%;
     /* border: solid; */
     background-color: #fef9e6;
     display: flex;
@@ -386,7 +386,7 @@
 /* ------------ */
 .sectionfour{
     height: 1090px;
-    width: auto;
+    width: 100%;
     border: solid white;
 }
 .containerfour{
@@ -470,7 +470,7 @@
 /* ------------ */
 .sectionfive{
     height: 330px;
-    width: auto;
+    width: 100%;
     background-color: #f1c50e;
     border: solid #f1c50e;
     /* border: #f1c50e; */
@@ -520,7 +520,7 @@
 /* ------------- */
 .sectionsix{
     height: 750px;
-    width: auto;
+    width: 100%;
     border: solid white;
     background-image: url(Backgroundimg1.jpg);
     background-position: center;
@@ -591,7 +591,7 @@
 /* ---------------------------*/
 .sectionseven{
    height: 1150px;
-   width: auto;
+   width: 100%;
    /* border: solid; */
    border: solid #fef9e6;
    background-color: #fef9e6;
@@ -760,7 +760,7 @@
 /* -------------------------------------------- */
 .sectioneight{
     height: 690px;
-    width: auto;
+    width: 100%;
     /* border: solid; */
     border: solid #f1c50e;
     background-color: #f1c50e;
@@ -815,7 +815,7 @@
 /* --------------------------- */
 .sectionnine{
    height: 780px;
-   width: auto;
+   width: 100%;
    /* border: solid; */
    background-image: url(girlwithhatimg.jpeg);
    background-position-x: 0%;
